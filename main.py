@@ -29,3 +29,25 @@
 #     print(f"ValueError: {error}")
 # except Exception as error:
 #     print(f"Exeption occured: {error}")
+#
+#
+# 2 завдання. Користувач вводить два числа. Визначити, чи рівні ці числа,
+# і, якщо ні, вивести їх на екран у порядку зростання
+#
+# try:
+#     num1 = int(input("Введіть перше число: "))
+#     num2 = int(input("Введіть друге число: "))
+#
+#     if num1 == num2:
+#         print("same")
+#     else:
+#         if num1 > num2:
+#             print(num2, num1)
+#         else:
+#             print(num1, num2)
+# except ValueError as error:
+#     print(f"Enter only integer numbers please!")
+#     print(f"ValueError: {error}")
+# except Exception as error:
+#     print(f"Exeption occured: {error}")
+
