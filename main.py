@@ -50,4 +50,35 @@
 #     print(f"ValueError: {error}")
 # except Exception as error:
 #     print(f"Exeption occured: {error}")
+#
+#3. Користувач вводить два числа та матем дію: + - * або /
+#Залежно від введеної матем дії вивести результат
+#
+#
+# try:
+#     num1 = int(input("enter 1 number = "))
+#     num2 = int(input("enter 2 number = "))
+#     math_action = input("Enter math action: + - * / ")
+#
+#     match math_action:
+#         case "+":
+#             print(f"{num1} {math_action} {num2} = {num1 + num2}")
+#         case "-":
+#             print(f"{num1} {math_action} {num2} = {num1 - num2}")
+#         case "*":
+#             print(f"{num1} {math_action} {num2} = {num1 * num2}")
+#         case "/":
+#             if num2 != 0:
+#                 print(f"{num1} {math_action} {num2} = {num1 / num2}")
+#             else:
+#                 print("Division by zero!!")
+#         case _:
+#             print("Error!!")
+# except ZeroDivisionError as error:
+#     print(f"ZeroDivisionError occcurred: {error}")
+# except ValueError as error:
+#     print(f"Enter only integer numbers please!")
+#     print(f"ValueError: {error}")
+# except Exception as error:
+#     print(f"Exeption occurred: {error}")
 
